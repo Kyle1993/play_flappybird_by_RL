@@ -3,7 +3,7 @@
 this is a implement of DQN and Actor-Critic in game Flappy Bird  
 we use pytorch in python3.5
 
-<iframe height=498 width=510 src='http://player.youku.com/embed/XMzUyODI5NTg4MA==' frameborder=0 'allowfullscreen'></iframe>
+<img src="./flappy_bird.gif" width="250">
 
 ## Requirement
 ```
