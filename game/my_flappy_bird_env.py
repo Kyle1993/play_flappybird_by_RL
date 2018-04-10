@@ -27,8 +27,6 @@ class flappy_bird_env():
         self.donothing_action = np.asarray([1,0], dtype=np.int)
         self.flap_action = np.asarray([0,1], dtype=np.int)
 
-        assert self.frame_skip%2==0
-
     def state_shape(self):
         return (self.frame_skip,80,80)
 
