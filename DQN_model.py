@@ -127,6 +127,9 @@ class Agent():
 
         torch.save(self.DQN,'DQNmodel_{}.pt'.format(episode))
 
+        if self.gpu>=0:
+            self.DQN.cuda(self.gpu)
+
     def load(self,episode):
         self.DQN = torch.load('DQNmodel_{}.pt'.format(episode))
         if self.gpu>=0:
