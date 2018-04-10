@@ -34,3 +34,6 @@ python3 test_ac.py
 
 note: in test_*.py, you must set which episode_num of saved model should be load to be tested
 ```
+
+## Disclaimer
+this work use the game env in the repo [yenchenlin/DeepLearningFlappyBird](https://github.com/yenchenlin/DeepLearningFlappyBird)
